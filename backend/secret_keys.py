@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class SecretKeys(BaseSettings):
-    COGNITO_CLIENT_ID: str = ""
-    COGNITO_CLIENT_SECRET: str = ""
-    REGION_NAME: str = ""
+    GOOGLE_CLIENT_ID: str = ""
     DATABASE_URL: str = ""
+    REDIS_URL: str = "redis://localhost:6379/0"
+    SESSION_TTL_MINUTES: int = 1440

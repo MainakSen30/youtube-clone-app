@@ -1,7 +1,10 @@
 fastapi
 uvicorn
-boto3
+requests
 pydantic-settings
 python-dotenv
 sqlalchemy
 psycopg2-binary
+google-auth
+redis
+bcrypt
